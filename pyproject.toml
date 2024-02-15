@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hello-cloud"
+version = "0.1.0"
+description = ""
+authors = ["brandon-setegn"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+gunicorn = "^21.2.0"
+werkzeug = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
